@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="fixed-top shadow-sm">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-warning" href="#">Crunchyroll</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Simulcast</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorías
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/Carousel/dragon-ball-daima.jpg" class="d-block object-fit-cover w-100 vh-100"
+                        alt="Dragon Ball Daima">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Carousel/goku-ssj4-daima.png" class="d-block object-fit-cover w-100 vh-100"
+                        alt="Goku">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Carousel/vegeta-ssj3-daima.png" class="d-block object-fit-cover w-100 vh-100"
+                        alt="Vegeta">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-body-tertiary">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E1 - La conspiración.jpg" class="card-img-top"
+                                alt="E1 - La conspiración">
+                            <div class="card-body">
+                                <p class="card-text ">Un castillo gigante en un mundo misterioso. Dos Majin observan por
+                                    un monitor. Sus nombres son Gomah y Degesu. El monitor muestra a Goku y a los demás
+                                    en una feroz batalla contra Majin Buu. Gomah y Degesu se dirigen a la Tierra.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">32 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E2 - Glorio.jpg" class="card-img-top" alt="E2 - Glorio">
+                            <div class="card-body">
+                                <p class="card-text">Goku y sus amigos ahora son pequeños debido al plan de Gomah.
+                                    Deciden viajar al Mundo Demoníaco y comienzan a prepararse. Goku recoge su Bastón
+                                    Mágico para una nueva aventura. Pero antes de partir, aparece un joven Majin llamado
+                                    Glorio.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E3 - Daima.png" class="card-img-top" alt="E3 - Daima">
+                            <div class="card-body">
+                                <p class="card-text">Goku, Kaio-shin y Glorio se dirigen al Reino Demoníaco. Su avión
+                                    viaja a través del espacio y hacia una dimensión misteriosa. Llegan a la entrada del
+                                    Tercer Mundo Demoníaco, el cual se encuentra dentro del Reino Demoníaco.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E4 - Conversadores.png" class="card-img-top"
+                                alt="E4 - Conversadores">
+                            <div class="card-body">
+                                <p class="card-text">Obligados a atravesar el Tercer Mundo Demoníaco a pie, Goku y sus
+                                    compañeros se detienen en una tienda solitaria. Allí encuentran unos productos muy
+                                    extraños y conocen a una pareja majin bastante conversadora y peculiar.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E5 - Panzy.png" class="card-img-top" alt="E5 - Panzy">
+                            <div class="card-body">
+                                <p class="card-text">El majin enmascarado que apareció ante Goku y sus compañeros es una
+                                    joven llamada Panzy. Glorio la ignora, pero Panzy insiste en servirles de guía. El
+                                    grupo llega a un castillo sospechoso.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E6 - Relámpago.png" class="card-img-top" alt="E6 - Relámpago">
+                            <div class="card-body">
+                                <p class="card-text">Tras toparse con la Policía Militar, guardianes del Reino
+                                    Demoníaco, nuestros cuatro amigos se ven obligados a acampar en una cueva, pero los
+                                    problemas continúan. ¡Glorio desata la magia del relámpago contra Goku para resolver
+                                    la situación!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E7 - Collar.jpg" class="card-img-top" alt="E7 - Collar">
+                            <div class="card-body">
+                                <p class="card-text">Goku y sus amigos continúan con el viaje, pero la Policía Militar
+                                    aparece y vuelve a impedirles el paso. Los siguieron usando la ubicación del Collar
+                                    Mágico que Panzy. ¿Podrán sus nuevos amigos evitar que Panzy corra peligro?</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E8 - Tamagami.png" class="card-img-top" alt="E8 - Tamagami">
+                            <div class="card-body">
+                                <p class="card-text">¡Comienza la lucha contra el Tamagami! Los Tamagamis son los
+                                    guardianes de las Esferas del dragón. Panzy y los demás no pueden ocultar su
+                                    sorpresa al ver luchar a Goku contra uno de ellos. ¿Cómo terminará la batalla?</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E9 - Ladrones.png" class="card-img-top" alt="E9 - Ladrones">
+                            <div class="card-body">
+                                <p class="card-text">Los rumores sobre lo que hizo Goku en el Tercer Mundo Demoníaco se
+                                    esparcen a lo largo del Reino Demoníaco. Para evitar problemas, Goku usa un disfraz
+                                    en el hotel, pero los ladrones del lugar lo reconocen.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E10 - Océano.png" class="card-img-top" alt="E10 - Océano">
+                            <div class="card-body">
+                                <p class="card-text">¡Goku y sus compañeros llegan al místico Segundo Mundo Demoníaco,
+                                    donde un océano gigante se extiende hasta donde llega la vista! El grupo queda
+                                    asombrado con el lugar, ¡pero inmediatamente son atacados por la Policía Militar!
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E11 - Leyenda.jpg" class="card-img-top" alt="E11 - Leyenda">
+                            <div class="card-body">
+                                <p class="card-text">Tras haberse reunido con Vegeta y los demás, Goku y compañía llegan
+                                    a un planeta que les resulta familiar. De pronto, se les acerca una sombra
+                                    sospechosa. ¡Es el Namek legendario que se quedó solo en el Reino Demoníaco!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E12 - Verdadera fuerza.jpg" class="card-img-top"
+                                alt="E12 - Verdadera fuerza">
+                            <div class="card-body">
+                                <p class="card-text">La batalla entre Vegeta y el Tamagami está reñida, pero se ve en
+                                    apuros cuando es forzado a pelear bajo el agua, un terreno inusual. Vegeta se ve
+                                    acorralado y se hunde al fondo del océano, pero luego da rienda suelta a su
+                                    verdadera fuerza.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E13 - Sorpresa.png" class="card-img-top" alt="E13 - Sorpresa">
+                            <div class="card-body">
+                                <p class="card-text">Goku y sus compañeros se dirigen hacia el mundo de Gomah, pero un
+                                    desperfecto técnico los hace aterrizar antes. El lugar al que llegan resulta ser un
+                                    planeta lleno de sorpresas, ¡que ni los Grandes Reyes Demonios quieren pisar!.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E14 - Tabú.png" class="card-img-top" alt="E14 - Tabú">
+                            <div class="card-body">
+                                <p class="card-text">Para detener el avance de Goku, Gomah realiza un acto tabú. Goku y
+                                    sus compañeros ya no pueden seguir adelante. Y cuando parece que su aventura ha
+                                    terminado, ¡cierta persona revela su verdadero poder!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E15 - Tercer Ojo.png" class="card-img-top" alt="E15 - Tercer Ojo">
+                            <div class="card-body">
+                                <p class="card-text">El Tercer ojo proporciona un poder absoluto en el Reino Demoníaco.
+                                    El rey Gomah descubrió su paradero e intentará obtenerlo. ¿Se abrirá el Tercer Ojo
+                                    en la frente de Gomah?</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E16 - Degesu.png" class="card-img-top" alt="E16 - Degesu">
+                            <div class="card-body">
+                                <p class="card-text">Goku y sus compañeros al fin llegan al palacio de Gomah. ¡Pero
+                                    Kadem y la Policía Militar les impiden el paso! Mientras tanto, en el palacio,
+                                    ¡Degesu actúa de acuerdo con sus ambiciones personales!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E17 - Gomah.jpg" class="card-img-top" alt="E17 - Gomah">
+                            <div class="card-body">
+                                <p class="card-text">Goku y sus compañeros se enfrentan a Arinsu. En esta batalla, todo
+                                    está en juego. Pero, de repente, ¡aparece el rey Gomah, completamente transformado
+                                    para sorpresa de ambos contrincantes!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E18 - Despertar.jpg" class="card-img-top" alt="E18 - Despertar">
+                            <div class="card-body">
+                                <p class="card-text">Aparece el rey Gomah y se desata una batalla de proporciones
+                                    épicas. Goku y sus compañeros luchan contra el poder del Tercer Ojo. Justo cuando
+                                    parece que todo está perdido, un nuevo y asombroso poder se despierta en el interior
+                                    de Goku.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E19 - Traición.jpg" class="card-img-top" alt="E19 - Traición">
+                            <div class="card-body">
+                                <p class="card-text">Goku y sus compañeros van perdiendo la batalla. Glorio pone en
+                                    marcha el plan secreto de Arinsu, dejando a todos atónitos. ¿Qué consecuencias
+                                    traerá la traición de Glorio?</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./img/columns/E20 - Máximo.jpg" class="card-img-top" alt="E20 - Máximo">
+                            <div class="card-body">
+                                <p class="card-text">Los rumores sobre lo que hizo Goku en el Tercer Mundo Demoníaco se
+                                    esparcen a lo largo del Reino Demoníaco. Para evitar problemas, Goku usa un disfraz
+                                    en el hotel, pero los ladrones del lugar lo reconocen.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">23 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-center text-white">
+
+        <div class="container p-4 pb-0">
+
+            <section class="mb-4">
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2025 Sony I Crunchyroll
+            </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
